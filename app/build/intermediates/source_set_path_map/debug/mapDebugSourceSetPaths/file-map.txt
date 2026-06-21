@@ -1,0 +1,90 @@
+com.legoar.app-activity-compose-1.9.2-0 /home/cleber/.gradle/caches/9.0.0/transforms/001032d1f5b46a39cb3bc98470187d31/transformed/activity-compose-1.9.2/res
+com.legoar.app-lifecycle-livedata-core-ktx-2.8.6-1 /home/cleber/.gradle/caches/9.0.0/transforms/0320390084c0764f738c28242d43378e/transformed/lifecycle-livedata-core-ktx-2.8.6/res
+com.legoar.app-fragment-ktx-1.7.1-2 /home/cleber/.gradle/caches/9.0.0/transforms/039904ef7092915fef69cbc8103df120/transformed/fragment-ktx-1.7.1/res
+com.legoar.app-play-services-measurement-api-22.1.2-3 /home/cleber/.gradle/caches/9.0.0/transforms/03a818e1cc876b542f60d007b49465b8/transformed/play-services-measurement-api-22.1.2/res
+com.legoar.app-navigation-runtime-2.8.2-4 /home/cleber/.gradle/caches/9.0.0/transforms/0569b2f375297c3be9388c60a73f01aa/transformed/navigation-runtime-2.8.2/res
+com.legoar.app-core-runtime-2.2.0-5 /home/cleber/.gradle/caches/9.0.0/transforms/0684b171501752b9626b110080672779/transformed/core-runtime-2.2.0/res
+com.legoar.app-profileinstaller-1.3.1-6 /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/res
+com.legoar.app-lifecycle-viewmodel-release-7 /home/cleber/.gradle/caches/9.0.0/transforms/0d3032d5060aff69397c64a89b53cb37/transformed/lifecycle-viewmodel-release/res
+com.legoar.app-navigation-common-ktx-2.8.2-8 /home/cleber/.gradle/caches/9.0.0/transforms/0d52fc034fa38e71be00e2e43e92e0d5/transformed/navigation-common-ktx-2.8.2/res
+com.legoar.app-savedstate-1.2.1-9 /home/cleber/.gradle/caches/9.0.0/transforms/106a2e85d93ff3a714fc116ccd7e572d/transformed/savedstate-1.2.1/res
+com.legoar.app-ui-geometry-release-10 /home/cleber/.gradle/caches/9.0.0/transforms/179961f4fa25da1644851fc65d1c9b58/transformed/ui-geometry-release/res
+com.legoar.app-ads-adservices-1.0.0-beta05-11 /home/cleber/.gradle/caches/9.0.0/transforms/1e6a9267113d7cc2b2809c5974b6eade/transformed/ads-adservices-1.0.0-beta05/res
+com.legoar.app-ui-tooling-data-release-12 /home/cleber/.gradle/caches/9.0.0/transforms/2505836859a045c585ca1789f8aefdb7/transformed/ui-tooling-data-release/res
+com.legoar.app-lifecycle-viewmodel-ktx-2.8.6-13 /home/cleber/.gradle/caches/9.0.0/transforms/251802a03c9d68043f1555bc9492566a/transformed/lifecycle-viewmodel-ktx-2.8.6/res
+com.legoar.app-coil-base-2.7.0-14 /home/cleber/.gradle/caches/9.0.0/transforms/274bf66b8ef3f84ba27fc17dd4205eab/transformed/coil-base-2.7.0/res
+com.legoar.app-material-icons-core-release-15 /home/cleber/.gradle/caches/9.0.0/transforms/29d3e0fa7be6e2d8ebaff82721d3e9fd/transformed/material-icons-core-release/res
+com.legoar.app-ui-tooling-release-16 /home/cleber/.gradle/caches/9.0.0/transforms/2d03ae09940aef7922d1f2e4adcd9f2d/transformed/ui-tooling-release/res
+com.legoar.app-core-ktx-1.13.1-17 /home/cleber/.gradle/caches/9.0.0/transforms/32784a8e3c62459b08ff4d9cd4237ded/transformed/core-ktx-1.13.1/res
+com.legoar.app-material-icons-extended-release-18 /home/cleber/.gradle/caches/9.0.0/transforms/3b6e154b6fd20c7d18ea655922177988/transformed/material-icons-extended-release/res
+com.legoar.app-appcompat-resources-1.7.0-19 /home/cleber/.gradle/caches/9.0.0/transforms/3da0fbee9df86bfa6d7f154815f82209/transformed/appcompat-resources-1.7.0/res
+com.legoar.app-emoji2-1.3.0-20 /home/cleber/.gradle/caches/9.0.0/transforms/3ded8e68e65db44a9e78e123f5228367/transformed/emoji2-1.3.0/res
+com.legoar.app-lifecycle-viewmodel-compose-release-21 /home/cleber/.gradle/caches/9.0.0/transforms/3eaf45ae36026cfe160269eea5747c4d/transformed/lifecycle-viewmodel-compose-release/res
+com.legoar.app-play-services-basement-18.4.0-22 /home/cleber/.gradle/caches/9.0.0/transforms/411d0c0f6d10ff4c67db7ba3ff2b67fc/transformed/play-services-basement-18.4.0/res
+com.legoar.app-navigation-runtime-ktx-2.8.2-23 /home/cleber/.gradle/caches/9.0.0/transforms/46b1c7c8c9f805bfd9a912005fff7c83/transformed/navigation-runtime-ktx-2.8.2/res
+com.legoar.app-firebase-crashlytics-19.2.1-24 /home/cleber/.gradle/caches/9.0.0/transforms/473a41f43a376fc37ffd74ceb2295741/transformed/firebase-crashlytics-19.2.1/res
+com.legoar.app-ui-tooling-preview-release-25 /home/cleber/.gradle/caches/9.0.0/transforms/49dfe1003ed01aa08e48ea240385c8cc/transformed/ui-tooling-preview-release/res
+com.legoar.app-animation-release-26 /home/cleber/.gradle/caches/9.0.0/transforms/4d72cbc35527a5efcac06dfdad35f19b/transformed/animation-release/res
+com.legoar.app-filament-android-1.52.0-27 /home/cleber/.gradle/caches/9.0.0/transforms/4ed6a3005a6bc3ee5a8d9c975b3a074e/transformed/filament-android-1.52.0/res
+com.legoar.app-startup-runtime-1.1.1-28 /home/cleber/.gradle/caches/9.0.0/transforms/514c0041e912fc7dac8057e00f1d6584/transformed/startup-runtime-1.1.1/res
+com.legoar.app-room-runtime-2.6.1-29 /home/cleber/.gradle/caches/9.0.0/transforms/54a19453fdad9c1aeec973f1d490db32/transformed/room-runtime-2.6.1/res
+com.legoar.app-ui-graphics-release-30 /home/cleber/.gradle/caches/9.0.0/transforms/59a5ea22272fdae61a569530464e6c0a/transformed/ui-graphics-release/res
+com.legoar.app-savedstate-ktx-1.2.1-31 /home/cleber/.gradle/caches/9.0.0/transforms/5e9801a3daffa14b6bb70e12cd72a2ce/transformed/savedstate-ktx-1.2.1/res
+com.legoar.app-play-services-auth-20.7.0-32 /home/cleber/.gradle/caches/9.0.0/transforms/6d8b2fd2846c837cc1ea76fe2e29c827/transformed/play-services-auth-20.7.0/res
+com.legoar.app-room-ktx-2.6.1-33 /home/cleber/.gradle/caches/9.0.0/transforms/6f48e6ad73d8cc87982641a02ee0ef9a/transformed/room-ktx-2.6.1/res
+com.legoar.app-appcompat-1.7.0-34 /home/cleber/.gradle/caches/9.0.0/transforms/70d17700ac2f4f831338374e65887e01/transformed/appcompat-1.7.0/res
+com.legoar.app-activity-1.9.2-35 /home/cleber/.gradle/caches/9.0.0/transforms/7170feeca134acc4a276458e91555bf2/transformed/activity-1.9.2/res
+com.legoar.app-lifecycle-viewmodel-savedstate-2.8.6-36 /home/cleber/.gradle/caches/9.0.0/transforms/723f19f0b5387a4e9e3150143acbfc0a/transformed/lifecycle-viewmodel-savedstate-2.8.6/res
+com.legoar.app-material-release-37 /home/cleber/.gradle/caches/9.0.0/transforms/763105475fc01be33c3db7a5c840619e/transformed/material-release/res
+com.legoar.app-hilt-navigation-1.2.0-38 /home/cleber/.gradle/caches/9.0.0/transforms/7772531a37bd309c19105252351d6dfb/transformed/hilt-navigation-1.2.0/res
+com.legoar.app-credentials-1.2.0-rc01-39 /home/cleber/.gradle/caches/9.0.0/transforms/7978e3a8ebb90efb2cf35cfa0775c3b4/transformed/credentials-1.2.0-rc01/res
+com.legoar.app-lifecycle-process-2.8.6-40 /home/cleber/.gradle/caches/9.0.0/transforms/7f94e8dcd27348cf4042396e15f78220/transformed/lifecycle-process-2.8.6/res
+com.legoar.app-foundation-layout-release-41 /home/cleber/.gradle/caches/9.0.0/transforms/82109accc86225f6643ccc592bd39b2b/transformed/foundation-layout-release/res
+com.legoar.app-fragment-1.7.1-42 /home/cleber/.gradle/caches/9.0.0/transforms/89aa029326712bb76a73b88916c08e0d/transformed/fragment-1.7.1/res
+com.legoar.app-datastore-release-43 /home/cleber/.gradle/caches/9.0.0/transforms/903a77de23737ab47b39ce2c26b22b6e/transformed/datastore-release/res
+com.legoar.app-ui-text-release-44 /home/cleber/.gradle/caches/9.0.0/transforms/93a4d46440ae8c7227c4d908d6e16a28/transformed/ui-text-release/res
+com.legoar.app-arsceneview-2.2.1-45 /home/cleber/.gradle/caches/9.0.0/transforms/9e0d22316e0313035ae7fb9459013110/transformed/arsceneview-2.2.1/res
+com.legoar.app-foundation-release-46 /home/cleber/.gradle/caches/9.0.0/transforms/9fe03ee88beec78bbb92530efd428e07/transformed/foundation-release/res
+com.legoar.app-credentials-play-services-auth-1.2.0-rc01-47 /home/cleber/.gradle/caches/9.0.0/transforms/a229082bfaf07c6f0077bc4dceaff5d9/transformed/credentials-play-services-auth-1.2.0-rc01/res
+com.legoar.app-ui-test-manifest-1.7.3-48 /home/cleber/.gradle/caches/9.0.0/transforms/a6538038f03a4c8875356f19a8420725/transformed/ui-test-manifest-1.7.3/res
+com.legoar.app-emoji2-views-helper-1.3.0-49 /home/cleber/.gradle/caches/9.0.0/transforms/a7e6dae1438c7d8cd12491d36bfe43c9/transformed/emoji2-views-helper-1.3.0/res
+com.legoar.app-activity-ktx-1.9.2-50 /home/cleber/.gradle/caches/9.0.0/transforms/a89b3793b50eaace74a7c1895032ab74/transformed/activity-ktx-1.9.2/res
+com.legoar.app-core-common-2.0.3-51 /home/cleber/.gradle/caches/9.0.0/transforms/a9c383d7f9add4f1dc44fdb6182e2015/transformed/core-common-2.0.3/res
+com.legoar.app-core-1.46.0-52 /home/cleber/.gradle/caches/9.0.0/transforms/ab8e6a96e327a7e71e07909c3a11746d/transformed/core-1.46.0/res
+com.legoar.app-navigation-common-2.8.2-53 /home/cleber/.gradle/caches/9.0.0/transforms/abe55ab0a370f95cb2f928fd3ba60155/transformed/navigation-common-2.8.2/res
+com.legoar.app-ui-release-54 /home/cleber/.gradle/caches/9.0.0/transforms/ac12097a81a28d1c1e3e131f4415c20a/transformed/ui-release/res
+com.legoar.app-ui-unit-release-55 /home/cleber/.gradle/caches/9.0.0/transforms/ac8fb786d5bb63018214c35a27f46245/transformed/ui-unit-release/res
+com.legoar.app-customview-poolingcontainer-1.0.0-56 /home/cleber/.gradle/caches/9.0.0/transforms/b0f10f44b7bc4d8918b9a43f9be341ff/transformed/customview-poolingcontainer-1.0.0/res
+com.legoar.app-datastore-preferences-release-57 /home/cleber/.gradle/caches/9.0.0/transforms/b3d7084dec83d6907bcd6e2e3f7d110b/transformed/datastore-preferences-release/res
+com.legoar.app-lifecycle-runtime-compose-release-58 /home/cleber/.gradle/caches/9.0.0/transforms/b422976317d8e7054c72017664d9228b/transformed/lifecycle-runtime-compose-release/res
+com.legoar.app-animation-core-release-59 /home/cleber/.gradle/caches/9.0.0/transforms/b8e84ddb14c1c3c2f7261b88243e0382/transformed/animation-core-release/res
+com.legoar.app-runtime-saveable-release-60 /home/cleber/.gradle/caches/9.0.0/transforms/bab3d4dbb0ef690d330e06789d46ba8c/transformed/runtime-saveable-release/res
+com.legoar.app-ads-adservices-java-1.0.0-beta05-61 /home/cleber/.gradle/caches/9.0.0/transforms/bb3d45daad5fde11cada0cec41dfb8fe/transformed/ads-adservices-java-1.0.0-beta05/res
+com.legoar.app-runtime-release-62 /home/cleber/.gradle/caches/9.0.0/transforms/bd306a967b5df265281fc3a9698350ad/transformed/runtime-release/res
+com.legoar.app-datastore-core-release-63 /home/cleber/.gradle/caches/9.0.0/transforms/bfa3107fe63fe394292a8f4e775fc658/transformed/datastore-core-release/res
+com.legoar.app-lifecycle-livedata-core-2.8.6-64 /home/cleber/.gradle/caches/9.0.0/transforms/c175b1d1373d2c081571961a7bda2a40/transformed/lifecycle-livedata-core-2.8.6/res
+com.legoar.app-hilt-navigation-compose-1.2.0-65 /home/cleber/.gradle/caches/9.0.0/transforms/c17861abf5ff0a3012de889ba20cddda/transformed/hilt-navigation-compose-1.2.0/res
+com.legoar.app-ui-util-release-66 /home/cleber/.gradle/caches/9.0.0/transforms/c34fffee10218220674ae1098e143278/transformed/ui-util-release/res
+com.legoar.app-lifecycle-runtime-ktx-release-67 /home/cleber/.gradle/caches/9.0.0/transforms/c53aa8beebc8e615170057e5b633c5ab/transformed/lifecycle-runtime-ktx-release/res
+com.legoar.app-navigation-compose-2.8.2-68 /home/cleber/.gradle/caches/9.0.0/transforms/c6b4dc14064a608c1e573ab38fea4f98/transformed/navigation-compose-2.8.2/res
+com.legoar.app-material-ripple-release-69 /home/cleber/.gradle/caches/9.0.0/transforms/c7c1d9d6c08cccd65d13fc63b3f4e98a/transformed/material-ripple-release/res
+com.legoar.app-core-1.13.1-70 /home/cleber/.gradle/caches/9.0.0/transforms/c8796cfd1d132f5655106133c6615e91/transformed/core-1.13.1/res
+com.legoar.app-lifecycle-livedata-2.8.6-71 /home/cleber/.gradle/caches/9.0.0/transforms/c97c73da9c6a0f2949e079711265eeac/transformed/lifecycle-livedata-2.8.6/res
+com.legoar.app-annotation-experimental-1.4.1-72 /home/cleber/.gradle/caches/9.0.0/transforms/d16f288f59955d5c7ce854bec8a4c651/transformed/annotation-experimental-1.4.1/res
+com.legoar.app-material3-release-73 /home/cleber/.gradle/caches/9.0.0/transforms/d2788970b53424d1b038d4b310321a94/transformed/material3-release/res
+com.legoar.app-sqlite-framework-2.4.0-74 /home/cleber/.gradle/caches/9.0.0/transforms/d38a5cde8e36b4a967bc61260f684505/transformed/sqlite-framework-2.4.0/res
+com.legoar.app-graphics-path-1.0.1-75 /home/cleber/.gradle/caches/9.0.0/transforms/d424e1fc20c5e4775f92583bc1bc5ca9/transformed/graphics-path-1.0.1/res
+com.legoar.app-browser-1.4.0-76 /home/cleber/.gradle/caches/9.0.0/transforms/d57902808feec9fcbd276b31035b4553/transformed/browser-1.4.0/res
+com.legoar.app-firebase-common-21.0.0-77 /home/cleber/.gradle/caches/9.0.0/transforms/dc4c4a38b696a729c224e8a4011783e9/transformed/firebase-common-21.0.0/res
+com.legoar.app-play-services-base-18.5.0-78 /home/cleber/.gradle/caches/9.0.0/transforms/e9d8a6645936552a2732cfe15ba9309b/transformed/play-services-base-18.5.0/res
+com.legoar.app-lifecycle-runtime-release-79 /home/cleber/.gradle/caches/9.0.0/transforms/f0e90d4e708e4808cf8044464e383ebc/transformed/lifecycle-runtime-release/res
+com.legoar.app-sqlite-2.4.0-80 /home/cleber/.gradle/caches/9.0.0/transforms/febefc781a00788d112b5af216acc943/transformed/sqlite-2.4.0/res
+com.legoar.app-res-81 /home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/build/generated/res/injectCrashlyticsMappingFileIdDebug
+com.legoar.app-pngs-82 /home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/build/generated/res/pngs/debug
+com.legoar.app-res-83 /home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/build/generated/res/processDebugGoogleServices
+com.legoar.app-resValues-84 /home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/build/generated/res/resValues/debug
+com.legoar.app-packageDebugResources-85 /home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.legoar.app-packageDebugResources-86 /home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.legoar.app-debug-87 /home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.legoar.app-debug-88 /home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/debug/res
+com.legoar.app-main-89 /home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/res

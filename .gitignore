@@ -1,0 +1,29 @@
+# Android Studio e Gradle
+.gradle/
+/build/
+/captures/
+*.iml
+.idea/workspace.xml
+.idea/libraries/
+.idea/caches/
+.idea/assetWizardSettings.xml
+.idea/modules.xml
+.idea/navEditor.xml
+local.properties
+
+# Erros e Logs (Os que travaram seu GitHub)
+*.hprof
+*.log
+primitive_adapter_cache.bin
+
+# Kotlin e Java
+*.class
+/bin/
+/gen/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Firebase (Opcional: se quiser esconder sua chave, mas geralmente o google-services.json é mantido)
+# app/google-services.json

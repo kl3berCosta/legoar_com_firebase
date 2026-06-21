@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">1032668643254</string>
+    <string name="google_api_key" translatable="false">AIzaSyBL8Y4t8ma4zPUdlucT9T8cG-1HLWQ1hwk</string>
+    <string name="google_app_id" translatable="false">1:1032668643254:android:eebbe2bce86c61fb3e0b17</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBL8Y4t8ma4zPUdlucT9T8cG-1HLWQ1hwk</string>
+    <string name="google_storage_bucket" translatable="false">legoar.firebasestorage.app</string>
+    <string name="project_id" translatable="false">legoar</string>
+</resources>

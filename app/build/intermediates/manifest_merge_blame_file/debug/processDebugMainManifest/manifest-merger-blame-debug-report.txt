@@ -1,0 +1,637 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.legoar"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:5:5-65
+11-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:6:5-66
+12-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:6:22-63
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:7:5-67
+13-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:8:5-79
+14-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:8:22-76
+15
+16    <uses-feature
+16-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:10:5-12:35
+17        android:name="android.hardware.camera"
+17-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:11:9-47
+18        android:required="true" />
+18-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:12:9-32
+19    <uses-feature
+19-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:13:5-15:35
+20        android:name="android.hardware.camera.ar"
+20-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:14:9-50
+21        android:required="true" />
+21-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:15:9-32
+22
+23    <!-- SceneView requires OpenGLES 3.0 or later for 3D rendering. -->
+24    <uses-feature
+24-->[io.github.sceneview:sceneview:2.2.1] /home/cleber/.gradle/caches/9.0.0/transforms/6c9dfbb25f653b85d8405f1901f0c22d/transformed/sceneview-2.2.1/AndroidManifest.xml:11:5-13:35
+25        android:glEsVersion="0x00030000"
+25-->[io.github.sceneview:sceneview:2.2.1] /home/cleber/.gradle/caches/9.0.0/transforms/6c9dfbb25f653b85d8405f1901f0c22d/transformed/sceneview-2.2.1/AndroidManifest.xml:12:9-41
+26        android:required="true" />
+26-->[io.github.sceneview:sceneview:2.2.1] /home/cleber/.gradle/caches/9.0.0/transforms/6c9dfbb25f653b85d8405f1901f0c22d/transformed/sceneview-2.2.1/AndroidManifest.xml:13:9-32
+27
+28    <uses-permission android:name="android.permission.WAKE_LOCK" />
+28-->[com.google.android.gms:play-services-measurement-api:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/03a818e1cc876b542f60d007b49465b8/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:24:5-68
+28-->[com.google.android.gms:play-services-measurement-api:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/03a818e1cc876b542f60d007b49465b8/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:24:22-65
+29    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+29-->[com.google.android.gms:play-services-measurement-api:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/03a818e1cc876b542f60d007b49465b8/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:25:5-79
+29-->[com.google.android.gms:play-services-measurement-api:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/03a818e1cc876b542f60d007b49465b8/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:25:22-76
+30    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+30-->[com.google.android.gms:play-services-measurement-api:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/03a818e1cc876b542f60d007b49465b8/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:26:5-88
+30-->[com.google.android.gms:play-services-measurement-api:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/03a818e1cc876b542f60d007b49465b8/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:26:22-85
+31    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+31-->[com.google.android.gms:play-services-measurement-api:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/03a818e1cc876b542f60d007b49465b8/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:27:5-82
+31-->[com.google.android.gms:play-services-measurement-api:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/03a818e1cc876b542f60d007b49465b8/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:27:22-79
+32    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+32-->[com.google.android.gms:play-services-measurement:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/e4016d73ce3e9ee888211f1e15594145/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:26:5-110
+32-->[com.google.android.gms:play-services-measurement:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/e4016d73ce3e9ee888211f1e15594145/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:26:22-107
+33    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+33-->[com.google.android.recaptcha:recaptcha:18.5.1] /home/cleber/.gradle/caches/9.0.0/transforms/0085cfa649a63837097df105b61e1134/transformed/recaptcha-18.5.1/AndroidManifest.xml:9:5-98
+33-->[com.google.android.recaptcha:recaptcha:18.5.1] /home/cleber/.gradle/caches/9.0.0/transforms/0085cfa649a63837097df105b61e1134/transformed/recaptcha-18.5.1/AndroidManifest.xml:9:22-95
+34
+35    <permission
+35-->[androidx.core:core:1.13.1] /home/cleber/.gradle/caches/9.0.0/transforms/c8796cfd1d132f5655106133c6615e91/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+36        android:name="com.legoar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+36-->[androidx.core:core:1.13.1] /home/cleber/.gradle/caches/9.0.0/transforms/c8796cfd1d132f5655106133c6615e91/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+37        android:protectionLevel="signature" />
+37-->[androidx.core:core:1.13.1] /home/cleber/.gradle/caches/9.0.0/transforms/c8796cfd1d132f5655106133c6615e91/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+38
+39    <uses-permission android:name="com.legoar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+39-->[androidx.core:core:1.13.1] /home/cleber/.gradle/caches/9.0.0/transforms/c8796cfd1d132f5655106133c6615e91/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+39-->[androidx.core:core:1.13.1] /home/cleber/.gradle/caches/9.0.0/transforms/c8796cfd1d132f5655106133c6615e91/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+40
+41    <queries>
+41-->[com.google.ar:core:1.46.0] /home/cleber/.gradle/caches/9.0.0/transforms/ab8e6a96e327a7e71e07909c3a11746d/transformed/core-1.46.0/AndroidManifest.xml:20:5-27:15
+42        <package android:name="com.google.ar.core" />
+42-->[com.google.ar:core:1.46.0] /home/cleber/.gradle/caches/9.0.0/transforms/ab8e6a96e327a7e71e07909c3a11746d/transformed/core-1.46.0/AndroidManifest.xml:21:9-54
+42-->[com.google.ar:core:1.46.0] /home/cleber/.gradle/caches/9.0.0/transforms/ab8e6a96e327a7e71e07909c3a11746d/transformed/core-1.46.0/AndroidManifest.xml:21:18-51
+43        <package android:name="com.android.vending" />
+43-->[com.google.ar:core:1.46.0] /home/cleber/.gradle/caches/9.0.0/transforms/ab8e6a96e327a7e71e07909c3a11746d/transformed/core-1.46.0/AndroidManifest.xml:22:9-55
+43-->[com.google.ar:core:1.46.0] /home/cleber/.gradle/caches/9.0.0/transforms/ab8e6a96e327a7e71e07909c3a11746d/transformed/core-1.46.0/AndroidManifest.xml:22:18-52
+44
+45        <intent>
+45-->[com.google.ar:core:1.46.0] /home/cleber/.gradle/caches/9.0.0/transforms/ab8e6a96e327a7e71e07909c3a11746d/transformed/core-1.46.0/AndroidManifest.xml:24:9-26:18
+46            <action android:name="com.google.android.play.core.install.BIND_INSTALL_SERVICE" />
+46-->[com.google.ar:core:1.46.0] /home/cleber/.gradle/caches/9.0.0/transforms/ab8e6a96e327a7e71e07909c3a11746d/transformed/core-1.46.0/AndroidManifest.xml:25:13-96
+46-->[com.google.ar:core:1.46.0] /home/cleber/.gradle/caches/9.0.0/transforms/ab8e6a96e327a7e71e07909c3a11746d/transformed/core-1.46.0/AndroidManifest.xml:25:21-93
+47        </intent>
+48    </queries>
+49
+50    <application
+50-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:17:5-44:19
+51        android:name="com.legoar.LegoARApp"
+51-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:18:9-34
+52        android:allowBackup="true"
+52-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:19:9-35
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.13.1] /home/cleber/.gradle/caches/9.0.0/transforms/c8796cfd1d132f5655106133c6615e91/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+54        android:debuggable="true"
+55        android:extractNativeLibs="false"
+56        android:icon="@android:drawable/sym_def_app_icon"
+56-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:20:9-58
+57        android:label="@string/app_name"
+57-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:21:9-41
+58        android:roundIcon="@android:drawable/sym_def_app_icon"
+58-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:22:9-63
+59        android:supportsRtl="true"
+59-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:23:9-35
+60        android:testOnly="true"
+61        android:theme="@style/Theme.LegoAR" >
+61-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:24:9-44
+62        <meta-data
+62-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:26:9-29:45
+63            android:name="com.google.ar.core"
+63-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:27:13-46
+64            android:value="required" />
+64-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:28:13-37
+65
+66        <activity
+66-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:31:9-42:20
+67            android:name="com.legoar.MainActivity"
+67-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:32:13-41
+68            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+68-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:33:13-87
+69            android:exported="true"
+69-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:34:13-36
+70            android:screenOrientation="portrait"
+70-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:35:13-49
+71            android:windowSoftInputMode="stateAlwaysHidden" >
+71-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:36:13-60
+72            <intent-filter>
+72-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:38:13-41:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:39:17-69
+73-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:39:25-66
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:40:17-77
+75-->/home/cleber/Downloads/LegoAR-Firebase (1)/LegoAR-Firebase/app/src/main/AndroidManifest.xml:40:27-74
+76            </intent-filter>
+77        </activity>
+78        <activity
+78-->[androidx.compose.ui:ui-tooling-android:1.7.3] /home/cleber/.gradle/caches/9.0.0/transforms/2d03ae09940aef7922d1f2e4adcd9f2d/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+79            android:name="androidx.compose.ui.tooling.PreviewActivity"
+79-->[androidx.compose.ui:ui-tooling-android:1.7.3] /home/cleber/.gradle/caches/9.0.0/transforms/2d03ae09940aef7922d1f2e4adcd9f2d/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+80            android:exported="true" />
+80-->[androidx.compose.ui:ui-tooling-android:1.7.3] /home/cleber/.gradle/caches/9.0.0/transforms/2d03ae09940aef7922d1f2e4adcd9f2d/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+81        <activity
+81-->[androidx.compose.ui:ui-test-manifest:1.7.3] /home/cleber/.gradle/caches/9.0.0/transforms/a6538038f03a4c8875356f19a8420725/transformed/ui-test-manifest-1.7.3/AndroidManifest.xml:23:9-25:39
+82            android:name="androidx.activity.ComponentActivity"
+82-->[androidx.compose.ui:ui-test-manifest:1.7.3] /home/cleber/.gradle/caches/9.0.0/transforms/a6538038f03a4c8875356f19a8420725/transformed/ui-test-manifest-1.7.3/AndroidManifest.xml:24:13-63
+83            android:exported="true" />
+83-->[androidx.compose.ui:ui-test-manifest:1.7.3] /home/cleber/.gradle/caches/9.0.0/transforms/a6538038f03a4c8875356f19a8420725/transformed/ui-test-manifest-1.7.3/AndroidManifest.xml:25:13-36
+84
+85        <service
+85-->[com.google.firebase:firebase-auth-ktx:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/babd6e9ad66e40df91e5fe07253a4966/transformed/firebase-auth-ktx-23.1.0/AndroidManifest.xml:8:9-14:19
+86            android:name="com.google.firebase.components.ComponentDiscoveryService"
+86-->[com.google.firebase:firebase-auth-ktx:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/babd6e9ad66e40df91e5fe07253a4966/transformed/firebase-auth-ktx-23.1.0/AndroidManifest.xml:9:13-84
+87            android:directBootAware="true"
+87-->[com.google.firebase:firebase-common:21.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/dc4c4a38b696a729c224e8a4011783e9/transformed/firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+88            android:exported="false" >
+88-->[com.google.firebase:firebase-auth-ktx:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/babd6e9ad66e40df91e5fe07253a4966/transformed/firebase-auth-ktx-23.1.0/AndroidManifest.xml:10:13-37
+89            <meta-data
+89-->[com.google.firebase:firebase-auth-ktx:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/babd6e9ad66e40df91e5fe07253a4966/transformed/firebase-auth-ktx-23.1.0/AndroidManifest.xml:11:13-13:85
+90                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
+90-->[com.google.firebase:firebase-auth-ktx:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/babd6e9ad66e40df91e5fe07253a4966/transformed/firebase-auth-ktx-23.1.0/AndroidManifest.xml:12:17-119
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-auth-ktx:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/babd6e9ad66e40df91e5fe07253a4966/transformed/firebase-auth-ktx-23.1.0/AndroidManifest.xml:13:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:69:13-71:85
+93                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+93-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:70:17-109
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:71:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-storage-ktx:21.0.1] /home/cleber/.gradle/caches/9.0.0/transforms/5c619d8a90406e8953ff8db5d8a8bebf/transformed/firebase-storage-ktx-21.0.1/AndroidManifest.xml:12:13-14:85
+96                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageLegacyRegistrar"
+96-->[com.google.firebase:firebase-storage-ktx:21.0.1] /home/cleber/.gradle/caches/9.0.0/transforms/5c619d8a90406e8953ff8db5d8a8bebf/transformed/firebase-storage-ktx-21.0.1/AndroidManifest.xml:13:17-125
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-storage-ktx:21.0.1] /home/cleber/.gradle/caches/9.0.0/transforms/5c619d8a90406e8953ff8db5d8a8bebf/transformed/firebase-storage-ktx-21.0.1/AndroidManifest.xml:14:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-crashlytics-ktx:19.2.1] /home/cleber/.gradle/caches/9.0.0/transforms/c56ded5854e2058f484f41505d14bc7c/transformed/firebase-crashlytics-ktx-19.2.1/AndroidManifest.xml:24:13-26:85
+99                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar"
+99-->[com.google.firebase:firebase-crashlytics-ktx:19.2.1] /home/cleber/.gradle/caches/9.0.0/transforms/c56ded5854e2058f484f41505d14bc7c/transformed/firebase-crashlytics-ktx-19.2.1/AndroidManifest.xml:25:17-130
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-crashlytics-ktx:19.2.1] /home/cleber/.gradle/caches/9.0.0/transforms/c56ded5854e2058f484f41505d14bc7c/transformed/firebase-crashlytics-ktx-19.2.1/AndroidManifest.xml:26:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-analytics-ktx:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/30e068488e13b8cf6d6599b5f80d3f04/transformed/firebase-analytics-ktx-22.1.2/AndroidManifest.xml:11:13-13:85
+102                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar"
+102-->[com.google.firebase:firebase-analytics-ktx:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/30e068488e13b8cf6d6599b5f80d3f04/transformed/firebase-analytics-ktx-22.1.2/AndroidManifest.xml:12:17-129
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-analytics-ktx:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/30e068488e13b8cf6d6599b5f80d3f04/transformed/firebase-analytics-ktx-22.1.2/AndroidManifest.xml:13:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-firestore-ktx:25.1.1] /home/cleber/.gradle/caches/9.0.0/transforms/2d6525da06521e3f34be2d93775bbde2/transformed/firebase-firestore-ktx-25.1.1/AndroidManifest.xml:12:13-14:85
+105                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar"
+105-->[com.google.firebase:firebase-firestore-ktx:25.1.1] /home/cleber/.gradle/caches/9.0.0/transforms/2d6525da06521e3f34be2d93775bbde2/transformed/firebase-firestore-ktx-25.1.1/AndroidManifest.xml:13:17-129
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-firestore-ktx:25.1.1] /home/cleber/.gradle/caches/9.0.0/transforms/2d6525da06521e3f34be2d93775bbde2/transformed/firebase-firestore-ktx-25.1.1/AndroidManifest.xml:14:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-storage:21.0.1] /home/cleber/.gradle/caches/9.0.0/transforms/828bc80e7fbbfaacfcb64cd4b67d7bcd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:30:13-32:85
+108                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+108-->[com.google.firebase:firebase-storage:21.0.1] /home/cleber/.gradle/caches/9.0.0/transforms/828bc80e7fbbfaacfcb64cd4b67d7bcd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:31:17-118
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-storage:21.0.1] /home/cleber/.gradle/caches/9.0.0/transforms/828bc80e7fbbfaacfcb64cd4b67d7bcd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:32:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-storage:21.0.1] /home/cleber/.gradle/caches/9.0.0/transforms/828bc80e7fbbfaacfcb64cd4b67d7bcd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:33:13-35:85
+111                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+111-->[com.google.firebase:firebase-storage:21.0.1] /home/cleber/.gradle/caches/9.0.0/transforms/828bc80e7fbbfaacfcb64cd4b67d7bcd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:34:17-107
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-storage:21.0.1] /home/cleber/.gradle/caches/9.0.0/transforms/828bc80e7fbbfaacfcb64cd4b67d7bcd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:35:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-crashlytics:19.2.1] /home/cleber/.gradle/caches/9.0.0/transforms/473a41f43a376fc37ffd74ceb2295741/transformed/firebase-crashlytics-19.2.1/AndroidManifest.xml:15:13-17:85
+114                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+114-->[com.google.firebase:firebase-crashlytics:19.2.1] /home/cleber/.gradle/caches/9.0.0/transforms/473a41f43a376fc37ffd74ceb2295741/transformed/firebase-crashlytics-19.2.1/AndroidManifest.xml:16:17-126
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-crashlytics:19.2.1] /home/cleber/.gradle/caches/9.0.0/transforms/473a41f43a376fc37ffd74ceb2295741/transformed/firebase-crashlytics-19.2.1/AndroidManifest.xml:17:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-crashlytics:19.2.1] /home/cleber/.gradle/caches/9.0.0/transforms/473a41f43a376fc37ffd74ceb2295741/transformed/firebase-crashlytics-19.2.1/AndroidManifest.xml:18:13-20:85
+117                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+117-->[com.google.firebase:firebase-crashlytics:19.2.1] /home/cleber/.gradle/caches/9.0.0/transforms/473a41f43a376fc37ffd74ceb2295741/transformed/firebase-crashlytics-19.2.1/AndroidManifest.xml:19:17-115
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-crashlytics:19.2.1] /home/cleber/.gradle/caches/9.0.0/transforms/473a41f43a376fc37ffd74ceb2295741/transformed/firebase-crashlytics-19.2.1/AndroidManifest.xml:20:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-firestore:25.1.1] /home/cleber/.gradle/caches/9.0.0/transforms/aa6199fe1fe283f2717bd6bb0929ac7c/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:17:13-19:85
+120                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+120-->[com.google.firebase:firebase-firestore:25.1.1] /home/cleber/.gradle/caches/9.0.0/transforms/aa6199fe1fe283f2717bd6bb0929ac7c/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:18:17-122
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-firestore:25.1.1] /home/cleber/.gradle/caches/9.0.0/transforms/aa6199fe1fe283f2717bd6bb0929ac7c/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:19:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-firestore:25.1.1] /home/cleber/.gradle/caches/9.0.0/transforms/aa6199fe1fe283f2717bd6bb0929ac7c/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:20:13-22:85
+123                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+123-->[com.google.firebase:firebase-firestore:25.1.1] /home/cleber/.gradle/caches/9.0.0/transforms/aa6199fe1fe283f2717bd6bb0929ac7c/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:21:17-111
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-firestore:25.1.1] /home/cleber/.gradle/caches/9.0.0/transforms/aa6199fe1fe283f2717bd6bb0929ac7c/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:22:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-appcheck:18.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/a3e2f77ac1d60106ba87054cc50b4bcd/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:25:13-27:85
+126                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+126-->[com.google.firebase:firebase-appcheck:18.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/a3e2f77ac1d60106ba87054cc50b4bcd/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:26:17-120
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-appcheck:18.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/a3e2f77ac1d60106ba87054cc50b4bcd/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:27:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-appcheck:18.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/a3e2f77ac1d60106ba87054cc50b4bcd/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:28:13-30:85
+129                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+129-->[com.google.firebase:firebase-appcheck:18.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/a3e2f77ac1d60106ba87054cc50b4bcd/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:29:17-117
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-appcheck:18.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/a3e2f77ac1d60106ba87054cc50b4bcd/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:30:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-sessions:2.0.6] /home/cleber/.gradle/caches/9.0.0/transforms/9681b0fae2ac3c32ff6d225b58bb7ac9/transformed/firebase-sessions-2.0.6/AndroidManifest.xml:29:13-31:85
+132                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+132-->[com.google.firebase:firebase-sessions:2.0.6] /home/cleber/.gradle/caches/9.0.0/transforms/9681b0fae2ac3c32ff6d225b58bb7ac9/transformed/firebase-sessions-2.0.6/AndroidManifest.xml:30:17-117
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-sessions:2.0.6] /home/cleber/.gradle/caches/9.0.0/transforms/9681b0fae2ac3c32ff6d225b58bb7ac9/transformed/firebase-sessions-2.0.6/AndroidManifest.xml:31:17-82
+134            <meta-data
+134-->[com.google.android.gms:play-services-measurement-api:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/03a818e1cc876b542f60d007b49465b8/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:37:13-39:85
+135                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+135-->[com.google.android.gms:play-services-measurement-api:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/03a818e1cc876b542f60d007b49465b8/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:38:17-139
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.android.gms:play-services-measurement-api:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/03a818e1cc876b542f60d007b49465b8/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:39:17-82
+137            <meta-data
+137-->[com.google.firebase:firebase-installations:18.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/c0d260ddbfcb5b61ff13a483e0525e38/transformed/firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+138                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+138-->[com.google.firebase:firebase-installations:18.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/c0d260ddbfcb5b61ff13a483e0525e38/transformed/firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-installations:18.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/c0d260ddbfcb5b61ff13a483e0525e38/transformed/firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+140            <meta-data
+140-->[com.google.firebase:firebase-installations:18.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/c0d260ddbfcb5b61ff13a483e0525e38/transformed/firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+141                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+141-->[com.google.firebase:firebase-installations:18.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/c0d260ddbfcb5b61ff13a483e0525e38/transformed/firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-installations:18.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/c0d260ddbfcb5b61ff13a483e0525e38/transformed/firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/de611362a14a1b623c62faf38d066b6b/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+144                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+144-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/de611362a14a1b623c62faf38d066b6b/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/de611362a14a1b623c62faf38d066b6b/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-common:21.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/dc4c4a38b696a729c224e8a4011783e9/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+147                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+147-->[com.google.firebase:firebase-common:21.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/dc4c4a38b696a729c224e8a4011783e9/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-common:21.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/dc4c4a38b696a729c224e8a4011783e9/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+149            <meta-data
+149-->[com.google.firebase:firebase-datatransport:19.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/b6288a097ef7bc51943e013fa4b18452/transformed/firebase-datatransport-19.0.0/AndroidManifest.xml:25:13-27:85
+150                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+150-->[com.google.firebase:firebase-datatransport:19.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/b6288a097ef7bc51943e013fa4b18452/transformed/firebase-datatransport-19.0.0/AndroidManifest.xml:26:17-115
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.firebase:firebase-datatransport:19.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/b6288a097ef7bc51943e013fa4b18452/transformed/firebase-datatransport-19.0.0/AndroidManifest.xml:27:17-82
+152        </service>
+153
+154        <activity
+154-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:29:9-46:20
+155            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+155-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:30:13-80
+156            android:excludeFromRecents="true"
+156-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:31:13-46
+157            android:exported="true"
+157-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:32:13-36
+158            android:launchMode="singleTask"
+158-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:33:13-44
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+159-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:34:13-72
+160            <intent-filter>
+160-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:35:13-45:29
+161                <action android:name="android.intent.action.VIEW" />
+161-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:17-69
+161-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:25-66
+162
+163                <category android:name="android.intent.category.DEFAULT" />
+163-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:17-76
+163-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:27-73
+164                <category android:name="android.intent.category.BROWSABLE" />
+164-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:17-78
+164-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:27-75
+165
+166                <data
+166-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:41:17-44:51
+167                    android:host="firebase.auth"
+167-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:42:21-49
+168                    android:path="/"
+168-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:43:21-37
+169                    android:scheme="genericidp" />
+169-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:44:21-48
+170            </intent-filter>
+171        </activity>
+172        <activity
+172-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:47:9-64:20
+173            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+173-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:48:13-79
+174            android:excludeFromRecents="true"
+174-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:49:13-46
+175            android:exported="true"
+175-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:50:13-36
+176            android:launchMode="singleTask"
+176-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:51:13-44
+177            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+177-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:52:13-72
+178            <intent-filter>
+178-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:53:13-63:29
+179                <action android:name="android.intent.action.VIEW" />
+179-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:17-69
+179-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:25-66
+180
+181                <category android:name="android.intent.category.DEFAULT" />
+181-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:17-76
+181-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:27-73
+182                <category android:name="android.intent.category.BROWSABLE" />
+182-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:17-78
+182-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:27-75
+183
+184                <data
+184-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:41:17-44:51
+185                    android:host="firebase.auth"
+185-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:42:21-49
+186                    android:path="/"
+186-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:43:21-37
+187                    android:scheme="recaptcha" />
+187-->[com.google.firebase:firebase-auth:23.1.0] /home/cleber/.gradle/caches/9.0.0/transforms/24adf3eb9a8097a9c4bd9fadcb435e88/transformed/firebase-auth-23.1.0/AndroidManifest.xml:44:21-48
+188            </intent-filter>
+189        </activity>
+190
+191        <service
+191-->[com.google.firebase:firebase-sessions:2.0.6] /home/cleber/.gradle/caches/9.0.0/transforms/9681b0fae2ac3c32ff6d225b58bb7ac9/transformed/firebase-sessions-2.0.6/AndroidManifest.xml:22:9-25:40
+192            android:name="com.google.firebase.sessions.SessionLifecycleService"
+192-->[com.google.firebase:firebase-sessions:2.0.6] /home/cleber/.gradle/caches/9.0.0/transforms/9681b0fae2ac3c32ff6d225b58bb7ac9/transformed/firebase-sessions-2.0.6/AndroidManifest.xml:23:13-80
+193            android:enabled="true"
+193-->[com.google.firebase:firebase-sessions:2.0.6] /home/cleber/.gradle/caches/9.0.0/transforms/9681b0fae2ac3c32ff6d225b58bb7ac9/transformed/firebase-sessions-2.0.6/AndroidManifest.xml:24:13-35
+194            android:exported="false" />
+194-->[com.google.firebase:firebase-sessions:2.0.6] /home/cleber/.gradle/caches/9.0.0/transforms/9681b0fae2ac3c32ff6d225b58bb7ac9/transformed/firebase-sessions-2.0.6/AndroidManifest.xml:25:13-37
+195
+196        <property
+196-->[com.google.android.gms:play-services-measurement-api:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/03a818e1cc876b542f60d007b49465b8/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:30:9-32:61
+197            android:name="android.adservices.AD_SERVICES_CONFIG"
+197-->[com.google.android.gms:play-services-measurement-api:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/03a818e1cc876b542f60d007b49465b8/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:31:13-65
+198            android:resource="@xml/ga_ad_services_config" />
+198-->[com.google.android.gms:play-services-measurement-api:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/03a818e1cc876b542f60d007b49465b8/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:32:13-58
+199
+200        <provider
+200-->[com.google.firebase:firebase-common:21.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/dc4c4a38b696a729c224e8a4011783e9/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+201            android:name="com.google.firebase.provider.FirebaseInitProvider"
+201-->[com.google.firebase:firebase-common:21.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/dc4c4a38b696a729c224e8a4011783e9/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+202            android:authorities="com.legoar.firebaseinitprovider"
+202-->[com.google.firebase:firebase-common:21.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/dc4c4a38b696a729c224e8a4011783e9/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+203            android:directBootAware="true"
+203-->[com.google.firebase:firebase-common:21.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/dc4c4a38b696a729c224e8a4011783e9/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+204            android:exported="false"
+204-->[com.google.firebase:firebase-common:21.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/dc4c4a38b696a729c224e8a4011783e9/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+205            android:initOrder="100" />
+205-->[com.google.firebase:firebase-common:21.0.0] /home/cleber/.gradle/caches/9.0.0/transforms/dc4c4a38b696a729c224e8a4011783e9/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+206
+207        <receiver
+207-->[com.google.android.gms:play-services-measurement:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/e4016d73ce3e9ee888211f1e15594145/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:29:9-33:20
+208            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+208-->[com.google.android.gms:play-services-measurement:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/e4016d73ce3e9ee888211f1e15594145/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:30:13-85
+209            android:enabled="true"
+209-->[com.google.android.gms:play-services-measurement:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/e4016d73ce3e9ee888211f1e15594145/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:31:13-35
+210            android:exported="false" >
+210-->[com.google.android.gms:play-services-measurement:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/e4016d73ce3e9ee888211f1e15594145/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:32:13-37
+211        </receiver>
+212
+213        <service
+213-->[com.google.android.gms:play-services-measurement:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/e4016d73ce3e9ee888211f1e15594145/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:35:9-38:40
+214            android:name="com.google.android.gms.measurement.AppMeasurementService"
+214-->[com.google.android.gms:play-services-measurement:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/e4016d73ce3e9ee888211f1e15594145/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:36:13-84
+215            android:enabled="true"
+215-->[com.google.android.gms:play-services-measurement:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/e4016d73ce3e9ee888211f1e15594145/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:37:13-35
+216            android:exported="false" />
+216-->[com.google.android.gms:play-services-measurement:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/e4016d73ce3e9ee888211f1e15594145/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:38:13-37
+217        <service
+217-->[com.google.android.gms:play-services-measurement:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/e4016d73ce3e9ee888211f1e15594145/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:39:9-43:72
+218            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+218-->[com.google.android.gms:play-services-measurement:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/e4016d73ce3e9ee888211f1e15594145/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:40:13-87
+219            android:enabled="true"
+219-->[com.google.android.gms:play-services-measurement:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/e4016d73ce3e9ee888211f1e15594145/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:41:13-35
+220            android:exported="false"
+220-->[com.google.android.gms:play-services-measurement:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/e4016d73ce3e9ee888211f1e15594145/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:42:13-37
+221            android:permission="android.permission.BIND_JOB_SERVICE" />
+221-->[com.google.android.gms:play-services-measurement:22.1.2] /home/cleber/.gradle/caches/9.0.0/transforms/e4016d73ce3e9ee888211f1e15594145/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:43:13-69
+222        <service
+222-->[androidx.room:room-runtime:2.6.1] /home/cleber/.gradle/caches/9.0.0/transforms/54a19453fdad9c1aeec973f1d490db32/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+223            android:name="androidx.room.MultiInstanceInvalidationService"
+223-->[androidx.room:room-runtime:2.6.1] /home/cleber/.gradle/caches/9.0.0/transforms/54a19453fdad9c1aeec973f1d490db32/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+224            android:directBootAware="true"
+224-->[androidx.room:room-runtime:2.6.1] /home/cleber/.gradle/caches/9.0.0/transforms/54a19453fdad9c1aeec973f1d490db32/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+225            android:exported="false" />
+225-->[androidx.room:room-runtime:2.6.1] /home/cleber/.gradle/caches/9.0.0/transforms/54a19453fdad9c1aeec973f1d490db32/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+226
+227        <provider
+227-->[androidx.emoji2:emoji2:1.3.0] /home/cleber/.gradle/caches/9.0.0/transforms/3ded8e68e65db44a9e78e123f5228367/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+228            android:name="androidx.startup.InitializationProvider"
+228-->[androidx.emoji2:emoji2:1.3.0] /home/cleber/.gradle/caches/9.0.0/transforms/3ded8e68e65db44a9e78e123f5228367/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+229            android:authorities="com.legoar.androidx-startup"
+229-->[androidx.emoji2:emoji2:1.3.0] /home/cleber/.gradle/caches/9.0.0/transforms/3ded8e68e65db44a9e78e123f5228367/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+230            android:exported="false" >
+230-->[androidx.emoji2:emoji2:1.3.0] /home/cleber/.gradle/caches/9.0.0/transforms/3ded8e68e65db44a9e78e123f5228367/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+231            <meta-data
+231-->[androidx.emoji2:emoji2:1.3.0] /home/cleber/.gradle/caches/9.0.0/transforms/3ded8e68e65db44a9e78e123f5228367/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+232                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+232-->[androidx.emoji2:emoji2:1.3.0] /home/cleber/.gradle/caches/9.0.0/transforms/3ded8e68e65db44a9e78e123f5228367/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+233                android:value="androidx.startup" />
+233-->[androidx.emoji2:emoji2:1.3.0] /home/cleber/.gradle/caches/9.0.0/transforms/3ded8e68e65db44a9e78e123f5228367/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+234            <meta-data
+234-->[androidx.lifecycle:lifecycle-process:2.8.6] /home/cleber/.gradle/caches/9.0.0/transforms/7f94e8dcd27348cf4042396e15f78220/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:29:13-31:52
+235                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+235-->[androidx.lifecycle:lifecycle-process:2.8.6] /home/cleber/.gradle/caches/9.0.0/transforms/7f94e8dcd27348cf4042396e15f78220/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:30:17-78
+236                android:value="androidx.startup" />
+236-->[androidx.lifecycle:lifecycle-process:2.8.6] /home/cleber/.gradle/caches/9.0.0/transforms/7f94e8dcd27348cf4042396e15f78220/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:31:17-49
+237            <meta-data
+237-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+238                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+238-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+239                android:value="androidx.startup" />
+239-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+240        </provider>
+241
+242        <service
+242-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cleber/.gradle/caches/9.0.0/transforms/a229082bfaf07c6f0077bc4dceaff5d9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+243            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+243-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cleber/.gradle/caches/9.0.0/transforms/a229082bfaf07c6f0077bc4dceaff5d9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+244            android:enabled="true"
+244-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cleber/.gradle/caches/9.0.0/transforms/a229082bfaf07c6f0077bc4dceaff5d9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+245            android:exported="false" >
+245-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cleber/.gradle/caches/9.0.0/transforms/a229082bfaf07c6f0077bc4dceaff5d9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+246            <meta-data
+246-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cleber/.gradle/caches/9.0.0/transforms/a229082bfaf07c6f0077bc4dceaff5d9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+247                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+247-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cleber/.gradle/caches/9.0.0/transforms/a229082bfaf07c6f0077bc4dceaff5d9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+248                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+248-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cleber/.gradle/caches/9.0.0/transforms/a229082bfaf07c6f0077bc4dceaff5d9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+249        </service>
+250
+251        <activity
+251-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cleber/.gradle/caches/9.0.0/transforms/a229082bfaf07c6f0077bc4dceaff5d9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+252            android:name="androidx.credentials.playservices.HiddenActivity"
+252-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cleber/.gradle/caches/9.0.0/transforms/a229082bfaf07c6f0077bc4dceaff5d9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+253            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+253-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cleber/.gradle/caches/9.0.0/transforms/a229082bfaf07c6f0077bc4dceaff5d9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+254            android:enabled="true"
+254-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cleber/.gradle/caches/9.0.0/transforms/a229082bfaf07c6f0077bc4dceaff5d9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+255            android:exported="false"
+255-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cleber/.gradle/caches/9.0.0/transforms/a229082bfaf07c6f0077bc4dceaff5d9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+256            android:fitsSystemWindows="true"
+256-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cleber/.gradle/caches/9.0.0/transforms/a229082bfaf07c6f0077bc4dceaff5d9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+257            android:theme="@style/Theme.Hidden" >
+257-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cleber/.gradle/caches/9.0.0/transforms/a229082bfaf07c6f0077bc4dceaff5d9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+258        </activity>
+259
+260        <uses-library
+260-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/cleber/.gradle/caches/9.0.0/transforms/1e6a9267113d7cc2b2809c5974b6eade/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+261            android:name="android.ext.adservices"
+261-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/cleber/.gradle/caches/9.0.0/transforms/1e6a9267113d7cc2b2809c5974b6eade/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+262            android:required="false" />
+262-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/cleber/.gradle/caches/9.0.0/transforms/1e6a9267113d7cc2b2809c5974b6eade/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+263
+264        <activity
+264-->[com.google.android.gms:play-services-auth:20.7.0] /home/cleber/.gradle/caches/9.0.0/transforms/6d8b2fd2846c837cc1ea76fe2e29c827/transformed/play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+265            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+265-->[com.google.android.gms:play-services-auth:20.7.0] /home/cleber/.gradle/caches/9.0.0/transforms/6d8b2fd2846c837cc1ea76fe2e29c827/transformed/play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+266            android:excludeFromRecents="true"
+266-->[com.google.android.gms:play-services-auth:20.7.0] /home/cleber/.gradle/caches/9.0.0/transforms/6d8b2fd2846c837cc1ea76fe2e29c827/transformed/play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+267            android:exported="false"
+267-->[com.google.android.gms:play-services-auth:20.7.0] /home/cleber/.gradle/caches/9.0.0/transforms/6d8b2fd2846c837cc1ea76fe2e29c827/transformed/play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+268            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+268-->[com.google.android.gms:play-services-auth:20.7.0] /home/cleber/.gradle/caches/9.0.0/transforms/6d8b2fd2846c837cc1ea76fe2e29c827/transformed/play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+269        <!--
+270            Service handling Google Sign-In user revocation. For apps that do not integrate with
+271            Google Sign-In, this service will never be started.
+272        -->
+273        <service
+273-->[com.google.android.gms:play-services-auth:20.7.0] /home/cleber/.gradle/caches/9.0.0/transforms/6d8b2fd2846c837cc1ea76fe2e29c827/transformed/play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+274            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+274-->[com.google.android.gms:play-services-auth:20.7.0] /home/cleber/.gradle/caches/9.0.0/transforms/6d8b2fd2846c837cc1ea76fe2e29c827/transformed/play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+275            android:exported="true"
+275-->[com.google.android.gms:play-services-auth:20.7.0] /home/cleber/.gradle/caches/9.0.0/transforms/6d8b2fd2846c837cc1ea76fe2e29c827/transformed/play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+276            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+276-->[com.google.android.gms:play-services-auth:20.7.0] /home/cleber/.gradle/caches/9.0.0/transforms/6d8b2fd2846c837cc1ea76fe2e29c827/transformed/play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+277            android:visibleToInstantApps="true" />
+277-->[com.google.android.gms:play-services-auth:20.7.0] /home/cleber/.gradle/caches/9.0.0/transforms/6d8b2fd2846c837cc1ea76fe2e29c827/transformed/play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+278
+279        <activity
+279-->[com.google.android.gms:play-services-base:18.5.0] /home/cleber/.gradle/caches/9.0.0/transforms/e9d8a6645936552a2732cfe15ba9309b/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+280            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+280-->[com.google.android.gms:play-services-base:18.5.0] /home/cleber/.gradle/caches/9.0.0/transforms/e9d8a6645936552a2732cfe15ba9309b/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+281            android:exported="false"
+281-->[com.google.android.gms:play-services-base:18.5.0] /home/cleber/.gradle/caches/9.0.0/transforms/e9d8a6645936552a2732cfe15ba9309b/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+282            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+282-->[com.google.android.gms:play-services-base:18.5.0] /home/cleber/.gradle/caches/9.0.0/transforms/e9d8a6645936552a2732cfe15ba9309b/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+283
+284        <meta-data
+284-->[com.google.android.gms:play-services-basement:18.4.0] /home/cleber/.gradle/caches/9.0.0/transforms/411d0c0f6d10ff4c67db7ba3ff2b67fc/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+285            android:name="com.google.android.gms.version"
+285-->[com.google.android.gms:play-services-basement:18.4.0] /home/cleber/.gradle/caches/9.0.0/transforms/411d0c0f6d10ff4c67db7ba3ff2b67fc/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+286            android:value="@integer/google_play_services_version" />
+286-->[com.google.android.gms:play-services-basement:18.4.0] /home/cleber/.gradle/caches/9.0.0/transforms/411d0c0f6d10ff4c67db7ba3ff2b67fc/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+287
+288        <service
+288-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /home/cleber/.gradle/caches/9.0.0/transforms/4676cd8da9c25a3b16646ad80593d6fa/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:26:9-32:19
+289            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+289-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /home/cleber/.gradle/caches/9.0.0/transforms/4676cd8da9c25a3b16646ad80593d6fa/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:27:13-103
+290            android:exported="false" >
+290-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /home/cleber/.gradle/caches/9.0.0/transforms/4676cd8da9c25a3b16646ad80593d6fa/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:28:13-37
+291            <meta-data
+291-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /home/cleber/.gradle/caches/9.0.0/transforms/4676cd8da9c25a3b16646ad80593d6fa/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:29:13-31:39
+292                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+292-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /home/cleber/.gradle/caches/9.0.0/transforms/4676cd8da9c25a3b16646ad80593d6fa/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:30:17-94
+293                android:value="cct" />
+293-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /home/cleber/.gradle/caches/9.0.0/transforms/4676cd8da9c25a3b16646ad80593d6fa/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:31:17-36
+294        </service> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+295        <meta-data
+295-->[com.google.ar:core:1.46.0] /home/cleber/.gradle/caches/9.0.0/transforms/ab8e6a96e327a7e71e07909c3a11746d/transformed/core-1.46.0/AndroidManifest.xml:32:9-34:41
+296            android:name="com.google.ar.core.min_apk_version"
+296-->[com.google.ar:core:1.46.0] /home/cleber/.gradle/caches/9.0.0/transforms/ab8e6a96e327a7e71e07909c3a11746d/transformed/core-1.46.0/AndroidManifest.xml:33:13-62
+297            android:value="242040000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+297-->[com.google.ar:core:1.46.0] /home/cleber/.gradle/caches/9.0.0/transforms/ab8e6a96e327a7e71e07909c3a11746d/transformed/core-1.46.0/AndroidManifest.xml:34:13-38
+298        <activity
+298-->[com.google.ar:core:1.46.0] /home/cleber/.gradle/caches/9.0.0/transforms/ab8e6a96e327a7e71e07909c3a11746d/transformed/core-1.46.0/AndroidManifest.xml:36:9-42:80
+299            android:name="com.google.ar.core.InstallActivity"
+299-->[com.google.ar:core:1.46.0] /home/cleber/.gradle/caches/9.0.0/transforms/ab8e6a96e327a7e71e07909c3a11746d/transformed/core-1.46.0/AndroidManifest.xml:37:13-62
+300            android:configChanges="keyboardHidden|orientation|screenSize"
+300-->[com.google.ar:core:1.46.0] /home/cleber/.gradle/caches/9.0.0/transforms/ab8e6a96e327a7e71e07909c3a11746d/transformed/core-1.46.0/AndroidManifest.xml:38:13-74
+301            android:excludeFromRecents="true"
+301-->[com.google.ar:core:1.46.0] /home/cleber/.gradle/caches/9.0.0/transforms/ab8e6a96e327a7e71e07909c3a11746d/transformed/core-1.46.0/AndroidManifest.xml:39:13-46
+302            android:exported="false"
+302-->[com.google.ar:core:1.46.0] /home/cleber/.gradle/caches/9.0.0/transforms/ab8e6a96e327a7e71e07909c3a11746d/transformed/core-1.46.0/AndroidManifest.xml:40:13-37
+303            android:launchMode="singleTop"
+303-->[com.google.ar:core:1.46.0] /home/cleber/.gradle/caches/9.0.0/transforms/ab8e6a96e327a7e71e07909c3a11746d/transformed/core-1.46.0/AndroidManifest.xml:41:13-43
+304            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+304-->[com.google.ar:core:1.46.0] /home/cleber/.gradle/caches/9.0.0/transforms/ab8e6a96e327a7e71e07909c3a11746d/transformed/core-1.46.0/AndroidManifest.xml:42:13-77
+305
+306        <receiver
+306-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+307            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+307-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+308            android:directBootAware="false"
+308-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+309            android:enabled="true"
+309-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+310            android:exported="true"
+310-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+311            android:permission="android.permission.DUMP" >
+311-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+312            <intent-filter>
+312-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+313                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+313-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+313-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+314            </intent-filter>
+315            <intent-filter>
+315-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+316                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+316-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+316-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+317            </intent-filter>
+318            <intent-filter>
+318-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+319                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+319-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+319-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+320            </intent-filter>
+321            <intent-filter>
+321-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+322                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+322-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+322-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cleber/.gradle/caches/9.0.0/transforms/0a8eb03c86883b0bb412f4993df047d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+323            </intent-filter>
+324        </receiver>
+325
+326        <service
+326-->[com.google.android.datatransport:transport-runtime:3.3.0] /home/cleber/.gradle/caches/9.0.0/transforms/ca7e30e150181f7148199a9ae7a39346/transformed/transport-runtime-3.3.0/AndroidManifest.xml:24:9-28:19
+327            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+327-->[com.google.android.datatransport:transport-runtime:3.3.0] /home/cleber/.gradle/caches/9.0.0/transforms/ca7e30e150181f7148199a9ae7a39346/transformed/transport-runtime-3.3.0/AndroidManifest.xml:25:13-117
+328            android:exported="false"
+328-->[com.google.android.datatransport:transport-runtime:3.3.0] /home/cleber/.gradle/caches/9.0.0/transforms/ca7e30e150181f7148199a9ae7a39346/transformed/transport-runtime-3.3.0/AndroidManifest.xml:26:13-37
+329            android:permission="android.permission.BIND_JOB_SERVICE" >
+329-->[com.google.android.datatransport:transport-runtime:3.3.0] /home/cleber/.gradle/caches/9.0.0/transforms/ca7e30e150181f7148199a9ae7a39346/transformed/transport-runtime-3.3.0/AndroidManifest.xml:27:13-69
+330        </service>
+331
+332        <receiver
+332-->[com.google.android.datatransport:transport-runtime:3.3.0] /home/cleber/.gradle/caches/9.0.0/transforms/ca7e30e150181f7148199a9ae7a39346/transformed/transport-runtime-3.3.0/AndroidManifest.xml:30:9-32:40
+333            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+333-->[com.google.android.datatransport:transport-runtime:3.3.0] /home/cleber/.gradle/caches/9.0.0/transforms/ca7e30e150181f7148199a9ae7a39346/transformed/transport-runtime-3.3.0/AndroidManifest.xml:31:13-132
+334            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+334-->[com.google.android.datatransport:transport-runtime:3.3.0] /home/cleber/.gradle/caches/9.0.0/transforms/ca7e30e150181f7148199a9ae7a39346/transformed/transport-runtime-3.3.0/AndroidManifest.xml:32:13-37
+335        <activity
+335-->[com.google.android.play:core-common:2.0.3] /home/cleber/.gradle/caches/9.0.0/transforms/a9c383d7f9add4f1dc44fdb6182e2015/transformed/core-common-2.0.3/AndroidManifest.xml:14:9-18:65
+336            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+336-->[com.google.android.play:core-common:2.0.3] /home/cleber/.gradle/caches/9.0.0/transforms/a9c383d7f9add4f1dc44fdb6182e2015/transformed/core-common-2.0.3/AndroidManifest.xml:15:13-93
+337            android:exported="false"
+337-->[com.google.android.play:core-common:2.0.3] /home/cleber/.gradle/caches/9.0.0/transforms/a9c383d7f9add4f1dc44fdb6182e2015/transformed/core-common-2.0.3/AndroidManifest.xml:16:13-37
+338            android:stateNotNeeded="true"
+338-->[com.google.android.play:core-common:2.0.3] /home/cleber/.gradle/caches/9.0.0/transforms/a9c383d7f9add4f1dc44fdb6182e2015/transformed/core-common-2.0.3/AndroidManifest.xml:17:13-42
+339            android:theme="@style/Theme.PlayCore.Transparent" />
+339-->[com.google.android.play:core-common:2.0.3] /home/cleber/.gradle/caches/9.0.0/transforms/a9c383d7f9add4f1dc44fdb6182e2015/transformed/core-common-2.0.3/AndroidManifest.xml:18:13-62
+340    </application>
+341
+342</manifest>

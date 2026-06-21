@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.legoar.app-mergeDebugResources-85:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/home/cleber/.gradle/caches/9.0.0/transforms/70d17700ac2f4f831338374e65887e01/transformed/appcompat-1.7.0/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1032668643254",
+    "project_id": "legoar",
+    "storage_bucket": "legoar.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032668643254:android:eebbe2bce86c61fb3e0b17",
+        "android_client_info": {
+          "package_name": "com.legoar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL8Y4t8ma4zPUdlucT9T8cG-1HLWQ1hwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

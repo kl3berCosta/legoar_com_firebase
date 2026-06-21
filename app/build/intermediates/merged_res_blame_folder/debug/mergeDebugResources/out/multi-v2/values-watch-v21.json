@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.legoar.app-mergeDebugResources-85:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/home/cleber/.gradle/caches/9.0.0/transforms/70d17700ac2f4f831338374e65887e01/transformed/appcompat-1.7.0/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

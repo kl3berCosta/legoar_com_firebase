@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.legoar.app-debug-87:/xml_network_security_config.xml.flat",
+        "source": "com.legoar.app-main-89:/xml/network_security_config.xml"
+    }
+]
